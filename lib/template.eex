@@ -1,0 +1,37 @@
+import AdventOfCode
+
+advent_of_code <%= year %>, <%= day %> do
+  @moduledoc """
+  https://adventofcode.com/<%= year %>/day/<%= day %>
+  https://adventofcode.com/<%= year %>/day/<%= day %>/input
+  """
+  def sample() do
+    """
+
+    """
+  end
+
+  @doc """
+  ## Examples
+      iex> sample() |> part_1()
+      sample()
+
+      iex> input() |> part_1()
+      input()
+  """
+  def part_1(input) do
+    input
+  end
+
+  @doc """
+  ## Examples
+      iex> sample() |> part_2()
+      sample()
+
+      iex> input() |> part_2()
+      input()
+  """
+  def part_2(input) do
+    input
+  end
+end
